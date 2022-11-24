@@ -2,6 +2,7 @@ import basicInstanced from './shaders/basic.instanced.vert.wgsl?raw'
 import positionFrag from './shaders/position.frag.wgsl?raw'
 import * as cube from './util/cube'
 import { getMvpMatrix } from './util/math'
+import './fps.js'
 
 // initialize webgpu device & config canvas context
 async function initWebGPU(canvas: HTMLCanvasElement) {

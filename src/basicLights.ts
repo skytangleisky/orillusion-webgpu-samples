@@ -3,6 +3,7 @@ import lambert from './shaders/lambert.frag.wgsl?raw'
 import * as sphere from './util/sphere'
 import * as box from './util/box'
 import { getModelViewMatrix, getProjectionMatrix } from './util/math'
+import './fps.js'
 
 // initialize webgpu device & config canvas context
 async function initWebGPU(canvas: HTMLCanvasElement) {

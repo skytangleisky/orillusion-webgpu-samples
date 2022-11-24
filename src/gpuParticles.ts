@@ -3,6 +3,7 @@ import positionFrag from './shaders/position.frag.wgsl?raw'
 import positionCompute from './shaders/compute.position.wgsl?raw'
 import * as box from './util/box'
 import { getModelViewMatrix, getProjectionMatrix } from './util/math'
+import './fps.js'
 
 // initialize webgpu device & config canvas context
 async function initWebGPU(canvas: HTMLCanvasElement) {

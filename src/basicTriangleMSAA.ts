@@ -1,5 +1,6 @@
 import triangleVert from './shaders/triangle.vert.wgsl?raw'
 import redFrag from './shaders/red.frag.wgsl?raw'
+import './fps.js'
 
 // initialize webgpu device & config canvas context
 async function initWebGPU(canvas: HTMLCanvasElement) {

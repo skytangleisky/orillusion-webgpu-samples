@@ -3,6 +3,7 @@ import spriteTexture from './shaders/spriteTexture.frag.wgsl?raw'
 import * as cube from './util/cube'
 import { getMvpMatrix } from './util/math'
 import textureUrl from '/sprites.webp?url'
+import './fps.js'
 
 // initialize webgpu device & config canvas context
 async function initWebGPU(canvas: HTMLCanvasElement) {

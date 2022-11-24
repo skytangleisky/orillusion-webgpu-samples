@@ -1,3 +1,5 @@
+import './fps.js'
+
 // check webgpu support
 async function initWebGPU() {
     try{

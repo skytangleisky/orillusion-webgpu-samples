@@ -1,5 +1,6 @@
 import {mat4} from 'gl-matrix'
 import computeTransform from './shaders/compute.transform.wgsl?raw'
+import './fps.js'
 
 async function initWebGPU(){
     if(!navigator.gpu)

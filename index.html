@@ -93,7 +93,8 @@
             sample.addEventListener('click', ()=>{
                 window.location.hash = sample.target
                 iframe.src = './samples/' + sample.target + '.html'
-                button.href = 'https://github.com/Orillusion/orillusion-webgpu-samples/tree/main/src/' + sample.target + '.ts'
+                // button.href = 'https://github.com/Orillusion/orillusion-webgpu-samples/tree/main/src/' + sample.target + '.ts'
+                button.href = iframe.src
                 document.querySelector('.active').classList.remove('active')
                 sample.classList.add('active')
             })

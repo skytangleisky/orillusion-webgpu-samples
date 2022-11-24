@@ -3,6 +3,7 @@ import videoTexture from './shaders/videoTexture.frag.wgsl?raw'
 import * as cube from './util/cube'
 import { getMvpMatrix } from './util/math'
 import videoUrl from '/video.mp4?url'
+import './fps.js'
 
 // initialize webgpu device & config canvas context
 async function initWebGPU(canvas: HTMLCanvasElement) {

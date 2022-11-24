@@ -5,6 +5,7 @@ import * as sphere from './util/sphere'
 import * as box from './util/box'
 import { getModelViewMatrix, getProjectionMatrix } from './util/math'
 import { mat4, vec3 } from 'gl-matrix'
+import './fps.js'
 
 
 // initialize webgpu device & config canvas context
