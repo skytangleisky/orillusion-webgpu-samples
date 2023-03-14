@@ -1,4 +1,4 @@
-![Cover Art](https://github.com/Orillusion/orillusion-webgpu-samples/blob/main/logo_new.png)
+![Cover Art](https://github.com/Orillusion/orillusion-webgpu-samples/blob/main/logo.png)
 
 # Orillusion-webgpu-samples
 
